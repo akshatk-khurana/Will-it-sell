@@ -27,7 +27,7 @@ class EtsyApp(ctk.CTk):
                                       height=20,
                                       width=100,
                                       corner_radius=5,
-                                      font=("Tahoma", 20),
+                                      font=("Tahoma", 16),
                                       state="normal")
         
         self.upload_button.pack(pady=60, padx=60)  

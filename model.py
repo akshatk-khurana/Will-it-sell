@@ -40,7 +40,6 @@ test_dataset = None
 train_loader = DataLoader(dataset=train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(dataset=test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-
 model = DesignPredictorModel().to(DEVICE)
 
 loss_function = nn.CrossEntropyLoss()
